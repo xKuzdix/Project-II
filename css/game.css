@@ -1,0 +1,32 @@
+.background    { background: rgb(52, 166, 251);
+                 table-layout: fixed;
+                 border-spacing: 0;
+                 background-image: url("images/cloud.jpg");}
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background: rgb(102, 102, 102);   }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("images/coin.gif");}
+.fish   { background-image: url("images/fish.png");}
+.player { background-image: url("images/cat.png");
+          background-size: 24px 20px; }
+.left .player { background-image: url("images/left.gif"); }
+.right .player { background-image: url("images/right.gif"); }
+.kuro { background-image: url("images/kuro.png");
+          background-size: 24px 20px; }
+.chicken  { background-image: url("images/chicken.png");}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
